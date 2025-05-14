@@ -1,0 +1,17 @@
+
+var arr = [10, 20, 30, 40, 50];
+arr.splice(2, 2); // Remove 2 elements from index 2 (30 and 40)
+
+console.log(arr); // [10, 20, 50]
+
+var arr = [10, 20, 50];
+arr.splice(2, 0, 30, 40); // At index 2, delete 0 items, insert 30 and 40
+
+console.log(arr); // [10, 20, 30, 40, 50]
+
+
+var arr = [10, 20, 30, 40, 50];
+arr.splice(1, 2, 'a', 'b'); // Start at index 1, remove 2 (20, 30), insert 'a', 'b'
+
+console.log(arr); // [10, 'a', 'b', 40, 50]
+
