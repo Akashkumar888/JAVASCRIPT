@@ -50,6 +50,7 @@ form .display input{
 
 form input.equal{
   width: 145px;
+  background-color: orange;
 }
 
 .calculator form input.operator{
